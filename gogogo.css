@@ -1,0 +1,79 @@
+html, body { 
+   background: rgb(255, 233, 30);
+   background-image: url(media/border.jpg); 
+}
+
+.main {
+    /* background-color: rgb(255, 0, 0); */
+    background-color: rgb(255, 136, 0);
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    /* padding: 10%; */
+    top: 50%;
+    left: 50%;
+    height: 90%;
+    width: 90%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    position: absolute;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap; 
+}
+
+#canvas { 
+    background-color: rgb(225, 225, 225);
+    cursor: none;
+    flex-grow: 1; 
+    margin: 1vmin;
+    border-radius: 0.5vmax;
+    background-image: url(media/wall3.jpg); 
+    background-size: 50%;
+
+}
+
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 6vmin;
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    user-select: none;
+}
+
+.down, .down p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3vmin;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    /* color: rgb(255, 255, 255); */
+    text-align: center;
+    user-select: none;
+    font-weight: bold;
+}
+.down {
+    display: block;
+}
+.down span {
+    
+    background-color: white;
+    border-radius: 0.5vmin;
+    padding: 0.25vmin 1vmin;
+    margin:1vmin 0.2vmin ;
+}
+
+/* #level {
+    float:left;
+}
+
+#score {
+    text-align: center;
+}
+
+#lives {
+    float:rigth;
+} */
